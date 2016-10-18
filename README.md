@@ -25,4 +25,4 @@ $ gulp
 
 ## LICENSE
 
-MIT © [DIYgod](http://github.com/DIYgod)
+MIT © [xiayuyingyun](https://xiayuyingyun.github.io/)
