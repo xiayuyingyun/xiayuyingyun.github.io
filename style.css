@@ -1,0 +1,143 @@
+
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body {
+	background:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+
+.wrap{
+	margin:0 auto;
+	width:80%;
+}
+/*****/
+.content
+{
+	/*background: url(../images/slider.jpg) no-repeat;*/
+	background-size: 100%;
+	background-size:cover;
+}
+
+/*------- Skills rings-------*/
+.heading
+{
+	color:#292929;
+	border-bottom: 3.5px solid #E1E1E1;
+	width: 130px;
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px #292929;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.para
+{
+	color:#6C6C6C;
+	padding:3em 0em 4em 0em;
+	text-align: center;
+}
+.centertxt {
+	width: 85%;
+	margin: 0 auto;
+}
+.text-light
+{
+	background: #00BFA5;
+	padding: 3em 0em;
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+	font-size: 16px;
+}
+
+.chart canvas {
+    width: 100px;
+    height: 100px;
+}
+
+.chart-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.percent,
+.count-number,
+.count-number-done {
+    color: #666;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.34;
+}
+
+.text-light .percent,
+.text-light .count-number,
+.text-light .count-number-done {
+    color: #656565;
+}
+
+.percent:after {
+    content: '%';
+}
+
+.chart-title,
+.count-subject {
+    font-weight: 400;
+    font-size: 0.889em;
+}
+
+.chart-title {
+    color: #999;
+}
+
+.text-light .chart-title,
+.text-light .count-subject {
+    color: #656565;
+	font-size: 12px;
+}
+
+.text-light .timeline .experience-info p {
+    color: rgba(255,255,255,0.7);
+}
+
+.text-light .timeline time {
+    color: rgba(255,255,255,0.5);
+}
+
+.text-light .timeline .experience,
+.text-light .timeline .experience .circle {
+    border-color: rgba(255,255,255,0.5);
+}
+
+/*-------------Timeline-----*/
+
