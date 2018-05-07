@@ -138,6 +138,11 @@ body {
 .text-light .timeline .experience .circle {
     border-color: rgba(255,255,255,0.5);
 }
-
+.describe{
+    float: left;
+}
+.marginL70{
+    margin-left: 70px;
+}
 /*-------------Timeline-----*/
 
